@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#0A1128">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="250dp">
+
+        <Button
+            android:id="@+id/llamar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#001F54"
+            android:text="Llamar"
+            android:textColor="@android:color/white"></Button>
+
+        <Button
+            android:id="@+id/navegar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#001F54"
+            android:text="Navegar"
+            android:textColor="@android:color/white"></Button>
+
+        <Button
+            android:id="@+id/camara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#001F54"
+            android:text="Camara"
+            android:textColor="@android:color/white"></Button>
+
+        <Button
+            android:id="@+id/archivos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#001F54"
+            android:text="Archivos"
+            android:textColor="@android:color/white"></Button>
+    </LinearLayout>
+
+</RelativeLayout>
